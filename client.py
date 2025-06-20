@@ -20,9 +20,9 @@ agent = Agent(
     system_prompt="You are a helpful assistant that solves user problems.",
     instructions="""
     First, make a judgement on what the user query is about.
-    Second, determine if you have tools that might be helpful to answer that question.
+    Second, determine if you have resources that might be helpful to answer that question.
     Third, if you do, use them. If not, you MUST NOT use them.
-    If you do have a tool that you could use but do not have enough information to use it,
+    If you do have a resource that you could use but do not have enough information to use it,
     ask the user politely to provide the information you need.
     Lastly, respond in a charming way, whether you are including the results of the tools or not. 
 
